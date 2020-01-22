@@ -1,1 +1,1 @@
-console.log("A pet adoption thing")
+console.log("A pet adoption thing");
