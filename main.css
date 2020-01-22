@@ -1,3 +1,93 @@
 body{
     background-color: blanchedalmond;
 }
+
+#pet-cards{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+#pet-cards2{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+#pet-cards3{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+#pet-cards4{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+#pet-cards5{
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 775px;
+}
+
+.adoptee{
+    border: 2px solid black;
+}
+
+.adoptee1{
+    border: 2px solid black;
+}
+
+.adoptee2{
+    border: 2px solid black;
+}
+
+.adoptee3{
+    border: 2px solid black;
+}
+
+.adoptee4{
+    border: 2px solid black;
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+#top-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#bottom-div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header{
+    font-weight: bold;
+    background-color: gray;
+    font-size: 2em;
+}
