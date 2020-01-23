@@ -31,7 +31,7 @@ const petCards = () => {
         domString +=    `<img src=${pet[i].img}></img>`;
         domString +=    `<section class="colors">${pet[i].color}</section>`;
         domString +=    `<p class="skills">${pet[i].specialSkill}</p>`;
-        domString +=    `<footer class="type">${pet[i].type}</footer>`;
+        domString +=    `<footer class="Cat">${pet[i].type}</footer>`;
         domString += '</div>';
     }
     printToDom('pet-cards', domString);
@@ -45,7 +45,7 @@ const petCards2 = () => {
         domString2 +=    `<img src=${pet2[i].img}></img>`;
         domString2 +=    `<section class="colors">${pet2[i].color}</section>`;
         domString2 +=    `<p class="skills">${pet2[i].specialSkill}</p>`;
-        domString2 +=    `<footer class="type">${pet2[i].type}</footer>`;
+        domString2 +=    `<footer class="Dino">${pet2[i].type}</footer>`;
         domString2 += '</div>';
     }
     printToDom('pet-cards2', domString2);
@@ -59,7 +59,7 @@ const petCards3 = () => {
         domString3 +=    `<img src=${pet3[i].img}></img>`;
         domString3 +=    `<section class="colors">${pet3[i].color}</section>`;
         domString3 +=    `<p class="skills">${pet3[i].specialSkill}</p>`;
-        domString3 +=    `<footer class="type">${pet3[i].type}</footer>`;
+        domString3 +=    `<footer class="Dog">${pet3[i].type}</footer>`;
         domString3 += '</div>';
     }
     printToDom('pet-cards3', domString3);
@@ -73,7 +73,7 @@ const petCards4 = () => {
         domString4 +=    `<img src=${pet4[i].img}></img>`;
         domString4 +=    `<section class="colors">${pet4[i].color}</section>`;
         domString4 +=    `<p class="skills">${pet4[i].specialSkill}</p>`;
-        domString4 +=    `<footer class="type">${pet4[i].type}</footer>`;
+        domString4 +=    `<footer class="Cat">${pet4[i].type}</footer>`;
         domString4 += '</div>';
     }
     printToDom('pet-cards4', domString4);
@@ -87,7 +87,7 @@ const petCards5 = () => {
         domString5 +=    `<img src=${pet5[i].img}></img>`;
         domString5 +=    `<section class="colors">${pet5[i].color}</section>`;
         domString5 +=    `<p class="skills">${pet5[i].specialSkill}</p>`;
-        domString5 +=    `<footer class="type">${pet5[i].type}</footer>`;
+        domString5 +=    `<footer class="Dog">${pet5[i].type}</footer>`;
         domString5 += '</div>';
     }
     printToDom('pet-cards5', domString5);
