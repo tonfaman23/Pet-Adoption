@@ -90,4 +90,22 @@ header{
     font-weight: bold;
     background-color: gray;
     font-size: 2em;
+    color: white;
+}
+.colors{
+    font-size: 1.25em;
+}
+.skills{
+    font-size: 1.1em;
+}
+.Cat{
+    background-color: limegreen;
+}
+
+.Dog{
+    background-color: lightskyblue;
+}
+
+.Dino{
+    background-color: steelblue;
 }
