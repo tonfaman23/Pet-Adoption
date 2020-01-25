@@ -78,6 +78,7 @@ header{
     padding: 10px 12px;
     background-color: gray;
     cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /*.filterDiv{
