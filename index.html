@@ -9,16 +9,19 @@
 </head>
 <body>
     <div id="masterDiv">
-        <button type="button" id="Dogs">Dogs</button>
-        <button type="button" id="Cats">Cats</button>
-        <button type="button" id="Dino">Dino</button>
+        <div class="buttonFilters">
+        <button class="btn active" onclick="filterselection('All')">Show All</button>   
+        <button class="btn" onclick="filterselection('Dogs')" id="Dogs">Dogs</button>
+        <button class="btn" onclick="filterselection('Cats')" id="Cats">Cats</button>
+        <button class="btn" onclick="filterselection('Dino')" id="Dino">Dino</button>
+        </div>
     <h1>Pets currently up for adoption</h1>
-    <!--<div id="top-div">-->
         <div id="pet-cards"></div>
-    <!--</div>-->
-    <!--<div id="bottom-div">
-    </div>-->
-    
+        <!--<div class="pet-container">
+            <div class="filterDiv Dogs">Dogs</div>
+            <div class="filterDiv Cats">Cats</div>
+            <div class="filterDiv Dino">Dino</div>
+        </div>-->
     </div>
     <!--<script src = "main.js"></script>-->
 <script src = "adoption.js"></script>

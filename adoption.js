@@ -16,7 +16,7 @@ const petCards = () => {
     for (let i = 0; i < pets.length; i++) {
         domString += `<div class="pet" id=${pets[i].id}>`;
         domString += `<header>${pets[i].name}</header>`;
-        domString +=    `<img src=${pets[i].img}></img>`;
+        domString +=    `<img src=${pets[i].img} class=${pets[i].type}Img></img>`;
         domString +=    `<section class="colors">${pets[i].color}</section>`;
         domString +=    `<p class="skills">${pets[i].specialSkill}</p>`;
         domString +=    `<footer class=${pets[i].type}>${pets[i].type}</footer>`;
@@ -27,4 +27,12 @@ const petCards = () => {
 
 petCards();
 
-
+//filterSelection("all")
+//const filterSelection(c) {
+    //const x, i;
+    //x = document.getElementById("filterDiv");
+    //if (c == "all") c= "";
+    //for (i = 0, i < x.length; i++) {
+//  
+    //}
+//}

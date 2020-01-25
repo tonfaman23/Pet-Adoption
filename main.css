@@ -6,20 +6,42 @@ img{
     height: 250px;
     width: 250px;
 }
+
+.CatImg{
+    border-radius: 15px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.6s;
+}
+
+.DinoImg{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+.DogImg{
+    border-radius: 7.5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 1.2);
+    transition: 0.9s;
+}
+
 .pet{
     border: 2px solid black;
+    border-radius: 5px;
     margin: 10px;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     flex: 0 1 24%;
+    background-color: ghostwhite;
 }
 header{
     font-weight: bold;
     background-color: gray;
     font-size: 2em;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .colors{
@@ -43,4 +65,36 @@ header{
 
 .Dino{
     background-color: steelblue;
+}
+
+/*.pet-container{
+    overflow: hidden;
+}*/
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    background-color: gray;
+    cursor: pointer;
+}
+
+/*.filterDiv{
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+}*/
+
+.btn:hover{
+    background-color: green;
+}
+
+.btn.active{
+    background-color: navy;
+    color: white;
 }
