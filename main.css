@@ -54,6 +54,7 @@ header{
 #pet-cards{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .Cat{
     background-color: limegreen;
