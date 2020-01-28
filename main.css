@@ -68,9 +68,6 @@ header{
     background-color: steelblue;
 }
 
-/*.pet-container{
-    overflow: hidden;
-}*/
 
 .btn{
     border: none;
@@ -80,17 +77,6 @@ header{
     cursor: pointer;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/*.filterDiv{
-    float: left;
-    background-color: #2196F3;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
-    margin: 2px;
-    display: none;
-}*/
 
 .btn:hover{
     background-color: green;

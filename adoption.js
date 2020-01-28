@@ -11,28 +11,63 @@ const printToDom = (divId, textToPrint) => {
     selectedDiv.innerHTML = textToPrint;
 };
 
-const petCards = () => {
+const petCards = (petsArray) => {
     let domString = '';
-    for (let i = 0; i < pets.length; i++) {
-        domString += `<div class="pet" id=${pets[i].id}>`;
-        domString += `<header>${pets[i].name}</header>`;
-        domString +=    `<img src=${pets[i].img} class=${pets[i].type}Img></img>`;
-        domString +=    `<section class="colors">${pets[i].color}</section>`;
-        domString +=    `<p class="skills">${pets[i].specialSkill}</p>`;
-        domString +=    `<footer class=${pets[i].type}>${pets[i].type}</footer>`;
+    for (let i = 0; i < petsArray.length; i++) {
+        domString += `<div class="pet" id=${petsArray[i].id}>`;
+        domString += `<header>${petsArray[i].name}</header>`;
+        domString +=    `<img src=${petsArray[i].img} class=${petsArray[i].type}Img></img>`;
+        domString +=    `<section class="colors">${petsArray[i].color}</section>`;
+        domString +=    `<p class="skills">${petsArray[i].specialSkill}</p>`;
+        domString +=    `<footer class=${petsArray[i].type}>${petsArray[i].type}</footer>`;
         domString += '</div>';
     }
     printToDom('pet-cards', domString);
 };
 
-petCards();
+petCards(pets);
 
-//filterSelection("all")
-//const filterSelection(c) {
-    //const x, i;
-    //x = document.getElementById("filterDiv");
-    //if (c == "all") c= "";
-    //for (i = 0, i < x.length; i++) {
-//  
-    //}
-//}
+const doggos = () => {
+    const petties = []
+        for (let i = 0; i < pets.length; i++){
+            if( pets[i].type === 'Dog'){
+                petties.push(pets[i]);
+            }
+        }
+    petCards(petties);
+};
+
+const kitties = () => {
+    const petties = []
+        for (let i = 0; i < pets.length; i++){
+            if( pets[i].type === 'Cat'){
+                petties.push(pets[i]);
+            }
+        }
+    petCards(petties);
+};
+
+const dinos = () => {
+    const petties = []
+        for (let i = 0; i < pets.length; i++){
+            if( pets[i].type === 'Dino'){
+                petties.push(pets[i]);
+            }
+        }
+    petCards(petties);
+}
+
+const all = () => {
+    const petties = []
+        for (let i = 0; i < pets.length; i++){
+            petties.push(pets[i]);
+             }
+    petCards(petties);
+}
+
+
+document.getElementById('Dogs').addEventListener('click', doggos);
+document.getElementById('Cats').addEventListener('click', kitties);
+document.getElementById('Dino').addEventListener('click', dinos);
+document.getElementById('All').addEventListener('click', all);
+
